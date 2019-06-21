@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]" parallel="methods">
+  <test name="testngTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.APIAutomate">
+        <methods>
+          <include name="ValidateJSONData"/>
+          <include name="preConf"/>
+        </methods>
+      </class> <!-- com.APIAutomate -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

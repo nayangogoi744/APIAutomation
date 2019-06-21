@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods">
+ <test name="testngTest">
+ <classes>
+ <class name="com.AutomateAPI" />
+ </classes>
+ </test> 
+</suite>

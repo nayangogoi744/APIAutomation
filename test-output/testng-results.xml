@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6515" started-at="2019-06-21T12:45:20Z" finished-at="2019-06-21T12:45:27Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="6515" started-at="2019-06-21T12:45:20Z" finished-at="2019-06-21T12:45:27Z">
+      <class name="com.AutomateAPI">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.AutomateAPI@4501b7af]" name="beforeTest" is-config="true" duration-ms="8" started-at="2019-06-21T18:15:20Z" finished-at="2019-06-21T18:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="validateAPIResponse()[pri:1, instance:com.AutomateAPI@4501b7af]" name="validateAPIResponse" duration-ms="2514" started-at="2019-06-21T18:15:20Z" finished-at="2019-06-21T18:15:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [220] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [220] but found [200]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.AutomateAPI.validateAPIResponse(AutomateAPI.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAPIResponse -->
+        <test-method status="PASS" signature="validateGET()[pri:2, instance:com.AutomateAPI@4501b7af]" name="validateGET" duration-ms="1093" started-at="2019-06-21T18:15:23Z" finished-at="2019-06-21T18:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGET -->
+        <test-method status="PASS" signature="doPOST()[pri:3, instance:com.AutomateAPI@4501b7af]" name="doPOST" duration-ms="1006" started-at="2019-06-21T18:15:24Z" finished-at="2019-06-21T18:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPOST -->
+        <test-method status="PASS" signature="doPUT()[pri:4, instance:com.AutomateAPI@4501b7af]" name="doPUT" duration-ms="923" started-at="2019-06-21T18:15:25Z" finished-at="2019-06-21T18:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPUT -->
+        <test-method status="PASS" signature="doDELETE()[pri:5, instance:com.AutomateAPI@4501b7af]" name="doDELETE" duration-ms="924" started-at="2019-06-21T18:15:26Z" finished-at="2019-06-21T18:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doDELETE -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.AutomateAPI@4501b7af]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-21T18:15:27Z" finished-at="2019-06-21T18:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.AutomateAPI -->
+    </test> <!-- testngTest -->
+  </suite> <!-- Suite -->
+</testng-results>
