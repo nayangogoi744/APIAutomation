@@ -3,6 +3,7 @@
  <test name="testngTest">
  <classes>
  <class name="com.AutomateAPI" />
+ <!-Added anew->
  </classes>
  </test> 
 </suite>
