@@ -35,7 +35,7 @@ public class AutomateAPI {
 		long times=response.timeIn(TimeUnit.SECONDS);
 		System.out.println(times);
 		assertEquals(times, timems/1000);							//Checking the response time
-		Assert.assertEquals(response.getStatusCode(), 220);			// Checking the response code
+		Assert.assertEquals(response.getStatusCode(), 200);			// Checking the response code
 		
 	}
 	
